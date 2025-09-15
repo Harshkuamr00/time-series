@@ -1,0 +1,5 @@
+"Scenario","Use Linear Regression","Use ARIMA"
+"You want to explain consumption using predictors like Wind, Solar, or Temperature.","✅ Yes","❌ No"
+"You want to forecast future consumption without external predictors.","❌ No","✅ Yes"
+"Your data has trends or seasonality.","❌ No (unless you add time-based predictors)","✅ Yes"
+"You want to include external variables.","✅ Yes","❌ No (unless using ARIMAX)"
